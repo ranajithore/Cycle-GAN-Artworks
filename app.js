@@ -3,7 +3,7 @@ const fs = require('fs');
 const glob = require('glob');
 const shuffle = require('shuffle-array');
 const app = express();
-const PORT = 10000;
+const PORT = process.env.PORT || 10000;
 
 app.use(express.static('public'));
 
