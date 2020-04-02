@@ -262,7 +262,7 @@
     <script src="/js/three.r95.min.js"></script>
     <script src="/js/vanta.topology.min.js"></script>
     <script>
-        VANTA.TOPOLOGY({
+        effect = VANTA.TOPOLOGY({
             el: '#background',
             mouseControls: true,
             touchControls: true,
@@ -271,6 +271,7 @@
             scale: 1.00,
             scaleMobile: 1.00
         })
+        effect.destroy();
     </script>
 </body>
 </html>
