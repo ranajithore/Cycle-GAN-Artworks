@@ -262,16 +262,20 @@
     <script src="/js/three.r95.min.js"></script>
     <script src="/js/vanta.topology.min.js"></script>
     <script>
-        effect = VANTA.TOPOLOGY({
-            el: '#background',
-            mouseControls: true,
-            touchControls: true,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00
-        })
-        effect.destroy();
+        window.addEventListener('resize', animie)
+        function animie(){
+            effect = VANTA.TOPOLOGY({
+                el: '#background',
+                mouseControls: true,
+                touchControls: true,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00
+            })
+            effect.destroy();
+        }
+        animie();
     </script>
 </body>
 </html>
