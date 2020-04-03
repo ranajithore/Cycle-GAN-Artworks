@@ -3,10 +3,10 @@ Welcome to computer generated artworks. In this project I just trained a **Cycle
 
 # The Model
 When training a Cycle-GAN there are four neural networks that need to be trained:
-1) A generator that generates pictures of abstract paintings (abstract painting generator).
-2) A generator that generates pictures of forests (waterfall image generator).
-3) A discriminator that can tell the difference between real and fake abstract paintings (abstract painting discriminator).
-4) A discriminator that can tell the difference between real and fake pictures of forests (waterfall image discriminator).
+1) A generator that generates pictures of abstract paintings **(abstract painting generator)**.
+2) A generator that generates pictures of waterfalls **(waterfall image generator)**.
+3) A discriminator that can tell the difference between real and fake abstract paintings **(abstract painting discriminator)**.
+4) A discriminator that can tell the difference between real and fake pictures of waterfalls **(waterfall image discriminator)**.
 
 Using this model I've generated 85 images of size 256 x 256 pixels and made an [art gallery of computer generated images.](https://cycle-gan-artworks.herokuapp.com/). This website is responsive and both desktop and mobile views are supported.
 
