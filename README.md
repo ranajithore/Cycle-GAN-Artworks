@@ -11,4 +11,4 @@ When training a Cycle-GAN there are four neural networks that need to be trained
 Using this model I've generated 85 images of size 256 x 256 pixels and made an [art gallery website of computer generated images](https://cycle-gan-artworks.herokuapp.com/). This website is fully responsive and both desktop and mobile views are supported.
 
 # Code
-Please check [this Colab Notebook for the entire code.](Cycle_GAN_Artworks.ipynb).
+Please check [this Colab Notebook for the entire code](Cycle_GAN_Artworks.ipynb).
